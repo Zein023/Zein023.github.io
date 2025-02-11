@@ -1,0 +1,64 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, sans-serif;
+    margin: 0;
+    padding: 0;
+    color:black;
+    background-image: url('https://1.bp.blogspot.com/-0fpvNAN3B1E/XuDsvtKYjEI/AAAAAAAAF_8/crWiLqjUgx8VBjVrWJYX7JmBQu8sfoF9QCLcBGAsYHQ/s1920/efek-cat-air.jpg'); /* Ganti dengan path gambar */
+    background-size: cover; /* Agar gambar menyesuaikan layar */
+    background-position: center; /* Pusatkan gambar */
+    background-repeat: no-repeat; /* Hindari gambar berulang */
+  }
+  
+  article img {
+    width: 100%; /* Menyesuaikan lebar gambar dengan kotak */
+    height: auto; /* Memastikan proporsi tetap terjaga */
+    display: block; /* Menghilangkan spasi bawah gambar */
+    border-radius: 10px; /* Membuat sudut gambar melengkung agar serasi dengan box */
+}
+
+
+  header, footer {
+    background-color:white;
+    padding: 20px;
+    text-align: center;
+    font-family:"Nova Mono", monospace;
+    font-weight: bold;
+  }
+
+  article {
+    border: 2px solid black; /* Garis tepi */
+    padding: 20px; /* Ruang dalam box */
+    margin: 20px auto; /* Jarak antar box dan posisi tengah */
+    border-radius: 10px; /* Sudut melengkung */
+    background-color: rgba(255, 255, 255, 0.8); /* Latar belakang semi transparan */
+    max-width: 800px; /* Batas lebar agar tidak terlalu besar */
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3); /* Efek bayangan */
+}
+
+aside {
+    border: 2px solid black; /* Garis tepi */
+    padding: 20px; /* Ruang dalam box */
+    margin: 20px auto; /* Jarak antar box dan posisi tengah */
+    border-radius: 10px; /* Sudut melengkung */
+    background-color: rgba(255, 255, 255, 0.8); /* Latar belakang semi transparan */
+    max-width: 800px; /* Batas lebar agar tidak terlalu besar */
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3); /* Efek bayangan */
+}
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 10px;
+  }
+
+  nav ul li a {
+    color:black;
+  }
+  
+  main, aside {
+    padding: 20px;
+  }
